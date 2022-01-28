@@ -70,7 +70,7 @@ export async function cli(args) {
   console.log("");
   let options = parseArgumentsIntoOptions(args);
   options = await promptForMissingOptions(options);
-  await createProject(options);
+  await createBlockchainDapp(options);
   let anim2 = chalkAnimation.neon(
     "\n You have succesfully installed the Dapp. \n"
   );
