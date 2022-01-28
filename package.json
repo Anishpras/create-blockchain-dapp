@@ -4,16 +4,15 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Anishpras/create-portfolio",
+    "url": "https://github.com/Anishpras/create-blockchain-dapp",
     "directory": "/"
   },
   "bugs": {
-    "url": "https://github.com/Anishpras/create-portfolio/issues"
+    "url": "https://github.com/Anishpras/create-blockchain-dapp/issues"
   },
   "main": "src/index.js",
   "bin": {
-    "@anishpras/create-portfolio": "bin/create-portfolio",
-    "create-portfolio": "bin/create-portfolio"
+    "create-portfolio": "bin/create-blockchain-dapp"
   },
   "publishConfig": {
     "access": "public"
@@ -21,14 +20,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "portfolio",
-    "create portfolio",
-    "create-portfolio",
-    "portfolio generator",
-    "anish",
-    "prashun"
-  ],
+  "keywords": [],
   "author": "Anish Prashun <anishprashun118@gmail.com>",
   "license": "ISC",
   "dependencies": {
